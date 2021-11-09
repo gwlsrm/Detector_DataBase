@@ -1,0 +1,10 @@
+//---------------------------------
+//ANALYZER PARAMETERS BLOCK:
+//---------------------------------
+// Analyzer
+AN_Name = NaI_1K_3Mev
+AN_FWHM_122 = 11
+AN_FWHM_662 = 50 
+AN_FWHM_1332 = 76.9
+AN_kev_per_ch = 2.93
+AN_N_ch = 1024

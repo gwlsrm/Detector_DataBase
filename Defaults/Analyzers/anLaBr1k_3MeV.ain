@@ -1,0 +1,10 @@
+//---------------------------------
+//ANALYZER PARAMETERS BLOCK:
+//---------------------------------
+// Analyzer
+AN_Name = LaBr_1K_3Mev
+AN_FWHM_122 = 8.44
+AN_FWHM_662 = 19.6 
+AN_FWHM_1332 = 27.11
+AN_kev_per_ch = 2.93
+AN_N_ch = 1024

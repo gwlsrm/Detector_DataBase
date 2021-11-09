@@ -1,0 +1,98 @@
+//---------------------------------
+//DETECTOR PARAMETERS BLOCK:
+//---------------------------------
+//Detector types: COAXIAL, SCINTILLATOR
+
+
+DetectorType = COAXIAL
+
+// Coaxial detector
+DC_CrystalDiameter = 4.1 cm
+DC_CrystalHeight = 4.6 cm
+DC_CrystalHoleDiameter = 1.2 cm
+DC_CrystalHoleHeight = 3 cm
+DC_CrystalFrontDeadLayer = 0.16 cm
+DC_CrystalSideDeadLayer = 0.16 cm
+DC_CrystalBackDeadLayer = 0.07 cm
+DC_CrystalHoleBottomDeadLayer = 0.09 cm
+DC_CrystalHoleSideDeadLayer = 0.07 cm
+DC_CrystalSideCladdingThickness = 0.13 cm
+DC_CapToCrystalDistance = 0.3 cm
+DC_DetectorCapDiameter = 7 cm
+DC_DetectorCapFrontThickness = 0.15 cm
+DC_DetectorCapSideThickness = 0.15 cm
+DC_DetectorCapBackThickness = 0.15 cm
+DC_DetectorMountingThickness = 3 cm
+
+
+//---------------------------------
+//MATERIAL PARAMETERS BLOCK:
+//---------------------------------
+//Coaxial detector materials:
+//---------------------------
+
+
+// Crystal
+DC_nCrystalElements = 1
+DC_RoCrystal = 5.323
+DC_ZCrystal[0] = 32
+DC_FractionsCrystal[0] = 1
+DC_FractionTypeCrystal = MASS
+M_DC_Crystal.MName = Germanium
+M_DC_Crystal.Nmaterials = 1
+M_DC_Crystal.Name[0] = Germanium
+M_DC_Crystal.MatRelWeight[0] = 1
+
+
+// Crystal Cladding
+DC_nCrystalSideCladdingElements = 1
+DC_RoCrystalSideCladding = 2.7
+DC_ZCrystalSideCladding[0] = 13
+DC_FractionsCrystalSideCladding[0] = 1
+DC_FractionTypeCrystalSideCladding = MASS
+M_DC_Crystal_Cladding.MName = Aluminum
+M_DC_Crystal_Cladding.Nmaterials = 1
+M_DC_Crystal_Cladding.Name[0] = Aluminum
+M_DC_Crystal_Cladding.MatRelWeight[0] = 1
+
+
+// Crystal Mounting
+DC_nCrystalMountingElements = 1
+DC_RoCrystalMounting = 2.7
+DC_ZCrystalMounting[0] = 13
+DC_FractionsCrystalMounting[0] = 1
+DC_FractionTypeCrystalMounting = MASS
+M_DC_Crystal_Mounting.MName = Aluminum
+M_DC_Crystal_Mounting.Nmaterials = 1
+M_DC_Crystal_Mounting.Name[0] = Aluminum
+M_DC_Crystal_Mounting.MatRelWeight[0] = 1
+
+
+// Detector Cap
+DC_nDetectorCapElements = 1
+DC_RoDetectorCap = 2.7
+DC_ZDetectorCap[0] = 13
+DC_FractionsDetectorCap[0] = 1
+DC_FractionTypeDetectorCap = MASS
+M_DC_Detector_Cap.MName = Aluminum
+M_DC_Detector_Cap.Nmaterials = 1
+M_DC_Detector_Cap.Name[0] = Aluminum
+M_DC_Detector_Cap.MatRelWeight[0] = 1
+
+
+// Vacuum
+DC_nVacuum = 4
+DC_RoVacuum = 1E-10
+DC_ZVacuum[0] = 6
+DC_FractionsVacuum[0] = 0.000124
+DC_ZVacuum[1] = 7
+DC_FractionsVacuum[1] = 0.755268
+DC_ZVacuum[2] = 8
+DC_FractionsVacuum[2] = 0.231781
+DC_ZVacuum[3] = 18
+DC_FractionsVacuum[3] = 0.012827
+DC_FractionTypeVacuum = MASS
+M_DC_Vacuum.MName = Air, dry (near sea level)
+M_DC_Vacuum.Nmaterials = 1
+M_DC_Vacuum.Name[0] = Air, dry (near sea level)
+M_DC_Vacuum.MatRelWeight[0] = 1

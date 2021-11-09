@@ -1,0 +1,98 @@
+//---------------------------------
+//DETECTOR PARAMETERS BLOCK:
+//---------------------------------
+//Detector types: COAXIAL, SCINTILLATOR
+
+
+DetectorType = COAXIAL
+
+// Coaxial detector
+DC_CrystalDiameter = 1 cm
+DC_CrystalHeight = 0.42 cm
+DC_CrystalHoleDiameter = 0.01 cm
+DC_CrystalHoleHeight = 0.01 cm
+DC_CrystalFrontDeadLayer = 0.0003 cm
+DC_CrystalSideDeadLayer = 0.0003 cm
+DC_CrystalBackDeadLayer = 0.0003 cm
+DC_CrystalHoleBottomDeadLayer = 0.0001 cm
+DC_CrystalHoleSideDeadLayer = 0.0001 cm
+DC_CrystalSideCladdingThickness = 0.0001 cm
+DC_CapToCrystalDistance = 0.58 cm
+DC_DetectorCapDiameter = 2.4 cm
+DC_DetectorCapFrontThickness = 0.012 cm
+DC_DetectorCapSideThickness = 0.012 cm
+DC_DetectorCapBackThickness = 0.012 cm
+DC_DetectorMountingThickness = 0.5 cm
+
+
+//---------------------------------
+//MATERIAL PARAMETERS BLOCK:
+//---------------------------------
+//Coaxial detector materials:
+//---------------------------
+
+
+// Crystal
+DC_nCrystalElements = 3
+DC_RoCrystal = 5.8
+DC_ZCrystal[0] = 30
+DC_FractionsCrystal[0] = 0.0276243093922652
+DC_ZCrystal[1] = 48
+DC_FractionsCrystal[1] = 0.428389290267743
+DC_ZCrystal[2] = 52
+DC_FractionsCrystal[2] = 0.543986400339991
+DC_FractionTypeCrystal = MASS
+M_DC_Crystal.MName = CdZnTe
+M_DC_Crystal.Nmaterials = 1
+M_DC_Crystal.Name[0] = CdZnTe
+M_DC_Crystal.MatRelWeight[0] = 1
+
+
+// Crystal Cladding
+DC_nCrystalSideCladdingElements = 1
+DC_RoCrystalSideCladding = 2.7
+DC_ZCrystalSideCladding[0] = 13
+DC_FractionsCrystalSideCladding[0] = 1
+DC_FractionTypeCrystalSideCladding = MASS
+M_DC_Crystal_Cladding.MName = Aluminium
+M_DC_Crystal_Cladding.Nmaterials = 1
+M_DC_Crystal_Cladding.Name[0] = Aluminium
+M_DC_Crystal_Cladding.MatRelWeight[0] = 1
+
+
+// Crystal Mounting
+DC_nCrystalMountingElements = 1
+DC_RoCrystalMounting = 2.7
+DC_ZCrystalMounting[0] = 13
+DC_FractionsCrystalMounting[0] = 1
+DC_FractionTypeCrystalMounting = MASS
+M_DC_Crystal_Mounting.MName = Aluminium
+M_DC_Crystal_Mounting.Nmaterials = 1
+M_DC_Crystal_Mounting.Name[0] = Aluminium
+M_DC_Crystal_Mounting.MatRelWeight[0] = 1
+
+
+// Detector Cap
+DC_nDetectorCapElements = 1
+DC_RoDetectorCap = 2.7
+DC_ZDetectorCap[0] = 13
+DC_FractionsDetectorCap[0] = 1
+DC_FractionTypeDetectorCap = MASS
+M_DC_Detector_Cap.MName = Aluminium
+M_DC_Detector_Cap.Nmaterials = 1
+M_DC_Detector_Cap.Name[0] = Aluminium
+M_DC_Detector_Cap.MatRelWeight[0] = 1
+
+
+// Vacuum
+DC_nVacuum = 2
+DC_RoVacuum = 0.001
+DC_ZVacuum[0] = 7
+DC_FractionsVacuum[0] = 0.8
+DC_ZVacuum[1] = 8
+DC_FractionsVacuum[1] = 0.2
+DC_FractionTypeVacuum = MASS
+M_DC_Vacuum.MName = Air
+M_DC_Vacuum.Nmaterials = 1
+M_DC_Vacuum.Name[0] = Air
+M_DC_Vacuum.MatRelWeight[0] = 1
