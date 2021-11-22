@@ -1,0 +1,10 @@
+//---------------------------------
+//SOURCE PARAMETERS BLOCK:
+//---------------------------------
+//Source types: POINT, CYLINDER, MARINELLI
+
+SourceType = POINT
+
+//Point Source
+pdistance = 10.0 cm
+prho = 0.0 cm

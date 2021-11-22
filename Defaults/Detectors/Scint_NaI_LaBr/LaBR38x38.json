@@ -1,0 +1,94 @@
+{
+    "Detector": {
+        "Type": "SCINTILLATOR",
+        "Geometry": {
+            "CrystalDiameter": 3.8,
+            "CrystalHeight": 3.8,
+            "CrystalFrontReflectorThickness": 0.05,
+            "CrystalSideReflectorThickness": 0.05,
+            "CrystalFrontCladdingThickness": 0.1,
+            "CrystalSideCladdingThickness": 0.1,
+            "DetectorFrontPackagingThickness": 0.7,
+            "DetectorSidePackagingThickness": 0.7,
+            "DetectorFrontCapThickness": 0.15,
+            "DetectorSideCapThickness": 0.15,
+            "DetectorMountingThickness": 0.8
+        },
+        "Material": {
+            "Crystal": {
+                "rho": 5.06,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 57,
+                        "frac": 0.366866343380559
+                    },
+                    {
+                        "z": 35,
+                        "frac": 0.633133656619442
+                    }
+                ]
+            },
+            "CrystalCladding": {
+                "rho": 2.7,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 13,
+                        "frac": 1.0
+                    }
+                ]
+            },
+            "CrystalReflector": {
+                "rho": 3.58,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 8,
+                        "frac": 0.396964
+                    },
+                    {
+                        "z": 12,
+                        "frac": 0.603036
+                    }
+                ]
+            },
+            "DetectorPackaging": {
+                "rho": 0.016,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 1,
+                        "frac": 0.43
+                    },
+                    {
+                        "z": 5,
+                        "frac": 0.032
+                    },
+                    {
+                        "z": 6,
+                        "frac": 0.417
+                    },
+                    {
+                        "z": 8,
+                        "frac": 0.069
+                    },
+                    {
+                        "z": 17,
+                        "frac": 0.052
+                    }
+                ]
+            },
+            "DetectorCap": {
+                "rho": 2.7,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 13,
+                        "frac": 1.0
+                    }
+                ]
+            }
+        }
+    }
+}

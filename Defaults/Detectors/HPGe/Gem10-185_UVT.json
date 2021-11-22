@@ -1,0 +1,88 @@
+{
+    "Detector": {
+        "Type": "COAXIAL",
+        "Geometry": {
+            "CrystalDiameter": 4.1,
+            "CrystalHeight": 4.6,
+            "CrystalHoleDiameter": 1.2,
+            "CrystalHoleHeight": 3.0,
+            "CrystalFrontDeadLayer": 0.16,
+            "CrystalSideDeadLayer": 0.16,
+            "CrystalBackDeadLayer": 0.07,
+            "CrystalHoleBottomDeadLayer": 0.09,
+            "CrystalHoleSideDeadLayer": 0.07,
+            "CrystalSideCladdingThickness": 0.13,
+            "CapToCrystalDistance": 0.3,
+            "DetectorCapDiameter": 7.0,
+            "DetectorCapFrontThickness": 0.15,
+            "DetectorCapSideThickness": 0.15,
+            "DetectorCapBackThickness": 0.15,
+            "DetectorMountingThickness": 3.0,
+            "CrystalCurvatureRadius": 0
+        },
+        "Material": {
+            "Crystal": {
+                "rho": 5.323,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 32,
+                        "frac": 1.0
+                    }
+                ]
+            },
+            "CrystalSideCladding": {
+                "rho": 2.7,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 13,
+                        "frac": 1.0
+                    }
+                ]
+            },
+            "CrystalMounting": {
+                "rho": 2.7,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 13,
+                        "frac": 1.0
+                    }
+                ]
+            },
+            "DetectorCap": {
+                "rho": 2.7,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 13,
+                        "frac": 1.0
+                    }
+                ]
+            },
+            "Vacuum": {
+                "rho": 1e-10,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 6,
+                        "frac": 0.000124
+                    },
+                    {
+                        "z": 7,
+                        "frac": 0.755268
+                    },
+                    {
+                        "z": 8,
+                        "frac": 0.231781
+                    },
+                    {
+                        "z": 18,
+                        "frac": 0.012827
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -22,13 +22,19 @@ SC_SourceHeight = 0.5 cm
 
 
 // Walls
-SC_nWallElements = 0
-SC_RoWall = 0
-SC_FractionTypeWall = MASS
-M_SC_Beaker.MName = 
-M_SC_Beaker.Nmaterials = 1
-M_SC_Beaker.Name[0] = 
-M_SC_Beaker.MatRelWeight[0] = 1
+SC_nEmptySpaceElements = 3
+SC_RoEmptySpace = 0.001
+SC_ZEmptySpace[0] = 7
+SC_FractionsEmptySpace[0] = 0.755
+SC_ZEmptySpace[1] = 8
+SC_FractionsEmptySpace[1] = 0.2315
+SC_ZEmptySpace[2] = 18
+SC_FractionsEmptySpace[2] = 0.0129
+SC_FractionTypeEmptySpace = MASS
+M_SC_EmptySpace.MName = Air
+M_SC_EmptySpace.Nmaterials = 1
+M_SC_EmptySpace.Name[0] = Air
+M_SC_EmptySpace.MatRelWeight[0] = 1
 
 
 // Source
