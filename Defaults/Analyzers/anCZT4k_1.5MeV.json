@@ -1,0 +1,10 @@
+{
+    "Analyzer": {
+        "Name": "CdZnTe_4K_1.5Mev",
+        "FWHM_122": 4.22,
+        "FWHM_662": 8.23,
+        "FWHM_1332": 0.0,
+        "kev_per_ch": 0.366,
+        "N_ch": 4096
+    }
+}

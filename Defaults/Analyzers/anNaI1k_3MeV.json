@@ -1,0 +1,10 @@
+{
+    "Analyzer": {
+        "Name": "NaI_1K_3Mev",
+        "FWHM_122": 11.0,
+        "FWHM_662": 50.0,
+        "FWHM_1332": 76.9,
+        "kev_per_ch": 2.93,
+        "N_ch": 1024
+    }
+}

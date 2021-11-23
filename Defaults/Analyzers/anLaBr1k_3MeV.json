@@ -1,0 +1,10 @@
+{
+    "Analyzer": {
+        "Name": "LaBr_1K_3Mev",
+        "FWHM_122": 8.44,
+        "FWHM_662": 19.6,
+        "FWHM_1332": 27.11,
+        "kev_per_ch": 2.93,
+        "N_ch": 1024
+    }
+}
