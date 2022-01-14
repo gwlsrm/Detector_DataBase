@@ -1,0 +1,81 @@
+{
+    "ContainerSource": {
+        "Name": "Barrel-200l",
+        "Layers": [
+            {
+                "Name": "Wall",
+                "Form": "CylZ",
+                "Material": {
+                    "Name": "Non-corrosive steel",
+                    "rho":7.93,
+                    "elements":[
+                        {"z": 1, "frac": 0.0128205128205128},
+                        {"z": 7, "frac": 0.0448717948717949},
+                        {"z": 8, "frac": 0.179487179487179},
+                        {"z": 92, "frac": 0.762820512820513},
+                        {"z": 24, "frac": 0.001},
+                        {"z": 26, "frac": 0.971},
+                        {"z": 28, "frac": 0.018},
+                        {"z": 22, "frac": 0.01}
+                    ]
+                },
+                "Dimensions": {
+                    "Diameter": 61.0,
+                    "Height": 87.0
+                },
+                "Position": {
+                    "rho": 0.0,
+                    "phi": 0.0,
+                    "z": 0.0
+                },
+                "Layers": [
+                    {
+                        "Name": "Air",
+                        "Form": "CylZ",
+                        "Material": {
+                            "Name": "Air",
+                            "rho": 0.001,
+                            "elements": [
+                                {"z": 7, "frac": 0.755},
+                                {"z": 8, "frac": 0.232},
+                                {"z": 18, "frac": 0.013}
+                            ]
+                        },
+                        "Dimensions": {
+                            "Height": 86.6,
+                            "Diameter": 60.6
+                        },
+                        "Position": {
+                            "rho": 0.0,
+                            "phi": 0.0,
+                            "z": 0.0
+                        },
+                        "Layers": [
+                            {
+                                "Name": "Source",
+                                "Form": "CylZ",
+                                "Material": {
+                                    "Name": "Water",
+                                    "rho": 1,
+                                    "elements": [
+                                        {"z": 1, "frac": 0.111899330013933},
+                                        {"z": 8, "frac": 0.888100669986067}
+                                    ]
+                                },
+                                "Dimensions": {
+                                    "Height": 86.6,
+                                    "Diameter": 60.6
+                                },
+                                "Position": {
+                                    "rho": 0.0,
+                                    "phi": 1.5707963268,
+                                    "z": -0.3
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

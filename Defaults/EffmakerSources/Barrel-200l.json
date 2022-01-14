@@ -6,28 +6,20 @@
                 "Name": "Wall",
                 "Shape": "CylZ",
                 "ParentIdx": -1,
-                "NumChild": 1,
                 "ChildIndex": [1],
                 "Dimensions": {
-                    "Dim1": 61.0,
-                    "Dim2": 87.0
+                    "Dim1": 87.0,
+                    "Dim2": 30.5
                 },
                 "Position": {
                     "x": 0.0,
                     "y": 0.0,
                     "z": 0.0
                 },
-                "RadioactiveSource": [
-                    {"E": 661.6, "I": 100.0}
-                ],
                 "Material": {
                     "Name": "Non-corrosive steel",
                     "rho": 7.93,
                     "elements":[
-                        {"z": 1, "frac": 0.0128205128205128},
-                        {"z": 7, "frac": 0.0448717948717949},
-                        {"z": 8, "frac": 0.179487179487179},
-                        {"z": 92, "frac": 0.762820512820513},
                         {"z": 24, "frac": 0.001},
                         {"z": 26, "frac": 0.971},
                         {"z": 28, "frac": 0.018},
@@ -39,20 +31,16 @@
                 "Name": "Air",
                 "Shape": "CylZ",
                 "ParentIdx": 0,
-                "NumChild": 1,
                 "ChildIndex": [2],
                 "Dimensions": {
-                    "Dim1": 60.6,
-                    "Dim2": 86.6
+                    "Dim1": 86.6,
+                    "Dim2": 30.3
                 },
                 "Position": {
                     "x": 0.0,
                     "y": 0.0,
                     "z": 0.0
                 },
-                "RadioactiveSource": [
-                    {"E": 661.6, "I": 100.0}
-                ],
                 "Material": {
                     "Name": "Air",
                     "rho": 0.001,
@@ -67,11 +55,10 @@
                 "Name": "Source",
                 "Shape": "CylZ",
                 "ParentIdx": 1,
-                "NumChild": 0,
                 "ChildIndex": [],
                 "Dimensions": {
-                    "Dim1": 60.6,
-                    "Dim2": 85.6
+                    "Dim1": 86.0,
+                    "Dim2": 30.3
                 },
                 "Position": {
                     "x": 0.0,
@@ -79,7 +66,7 @@
                     "z": 0.0
                 },
                 "RadioactiveSource": [
-                    {"E": 661.6, "I": 100.0}
+                    {"E": 0.05, "I": 1000.0}, {"E": 0.07880293000746189, "I": 1000.0}, {"E": 0.1241980355552187, "I": 1000.0}, {"E": 0.1957433820584432, "I": 1000.0}, {"E": 0.3085030407155073, "I": 1000.0}, {"E": 0.48621887049186563, "I": 1000.0}, {"E": 0.7663094323935531, "I": 1000.0}, {"E": 1.2077485712993399, "I": 1000.0}, {"E": 1.903482522614279, "I": 1000.0}, {"E": 3, "I": 1000.0}
                 ],
                 "Material": {
                     "Name": "Water",
@@ -93,7 +80,7 @@
         ],
         "DetectorPosition": {
             "detX": 0,
-            "detY": 0,
+            "detY": 40,
             "detZ": 0,
             "detPhi": 0,
             "detTheta": 0           
