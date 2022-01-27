@@ -1,0 +1,72 @@
+//---------------------------------
+//DETECTOR PARAMETERS BLOCK:
+//---------------------------------
+//Detector types: COAXIAL, SCINTILLATOR
+
+
+DetectorType = COAXIAL
+
+// Coaxial detector
+DCW_CrystalDiameter = 5.75 cm
+DCW_CrystalHeight = 5.53 cm
+DCW_CrystalHoleDiameter = 2.97 cm
+DCW_CrystalHoleHeight = 3.6 cm
+DCW_CrystalFrontDeadLayer = 0.07 cm
+DCW_CrystalSideDeadLayer = 0.07 cm
+DCW_CrystalBackDeadLayer = 0.07 cm
+DCW_CrystalHoleBottomDeadLayer = 0.0003 cm
+DCW_CrystalHoleSideDeadLayer = 0.0003 cm
+DCW_CrystalSideCladdingThickness = 0.1 cm
+DCW_CapToCrystalDistance = 0.9 cm
+DCW_DetectorCapDiameter = 9.3 cm
+DCW_DetectorCapFrontThickness = 0.2 cm
+DCW_DetectorCapSideThickness = 0.15 cm
+DCW_DetectorCapBackThickness = 0.15 cm
+DCW_DetectorCapHoleDiameter = 1.6 cm
+DCW_DetectorCapHoleHeight = 4 cm
+DCW_DetectorCapHoleBottomThickness = 0.07 cm
+DCW_DetectorCapHoleSideThickness = 0.07 cm
+DCW_DetectorMountingThickness = 3 cm
+
+
+//---------------------------------
+//MATERIAL PARAMETERS BLOCK:
+//---------------------------------
+//Coaxial detector materials:
+//---------------------------
+
+
+// Crystal
+DCW_nCrystalElements = 1
+DCW_RoCrystal = 5.323
+DCW_ZCrystal[0] = 32
+DCW_FractionsCrystal[0] = 1
+DCW_FractionTypeCrystal = MASS
+
+// Crystal Cladding
+DCW_nCrystalSideCladdingElements = 1
+DCW_RoCrystalSideCladding = 2.7
+DCW_ZCrystalSideCladding[0] = 13
+DCW_FractionsCrystalSideCladding[0] = 1
+DCW_FractionTypeCrystalSideCladding = MASS
+
+// Crystal Mounting
+DCW_nCrystalMountingElements = 1
+DCW_RoCrystalMounting = 2.7
+DCW_ZCrystalMounting[0] = 13
+DCW_FractionsCrystalMounting[0] = 1
+DCW_FractionTypeCrystalMounting = MASS
+
+// Detector Cap
+DCW_nDetectorCapElements = 1
+DCW_RoDetectorCap = 2.7
+DCW_ZDetectorCap[0] = 13
+DCW_FractionsDetectorCap[0] = 1
+DCW_FractionTypeDetectorCap = MASS
+
+// Vacuum
+DCW_nVacuum = 1
+DCW_RoVacuum = 1E-10
+DCW_ZVacuum[0] = 13
+DCW_FractionsVacuum[0] = 1
+DCW_FractionTypeVacuum = MASS
