@@ -5,7 +5,7 @@
 
 SourceType = CONE
 
-//Cylindrical Source
+// Cone Source
 SK_BeakerToDetectorFrontDistance = 0 cm
 SK_BeakerDiameterBottom = 6.7 cm
 SK_BeakerDiameterTop = 7.2 cm
@@ -18,7 +18,7 @@ SK_SourceHeight = 3.4 cm
 //---------------------------------
 //MATERIAL PARAMETERS BLOCK:
 //---------------------------------
-// Cylindrical beaker materials:
+// Cone beaker materials:
 //----------------------------
 
 
@@ -32,11 +32,6 @@ SK_FractionsWall[1] = 0.625016
 SK_ZWall[2] = 8
 SK_FractionsWall[2] = 0.333024
 SK_FractionTypeWall = MASS
-M_SK_Beaker.MName = Mylar
-M_SK_Beaker.Nmaterials = 1
-M_SK_Beaker.Name[0] = Mylar
-M_SK_Beaker.MatRelWeight[0] = 1
-
 
 // Source
 SK_nSourceElements = 2
@@ -46,11 +41,6 @@ SK_FractionsSource[0] = 0.111899330013933
 SK_ZSource[1] = 8
 SK_FractionsSource[1] = 0.888100669986067
 SK_FractionTypeSource = MASS
-M_SK_Source.MName = Water
-M_SK_Source.Nmaterials = 1
-M_SK_Source.Name[0] = Water
-M_SK_Source.MatRelWeight[0] = 1
-
 
 // Empty Space
 SK_nEmptySpaceElements = 3
@@ -62,7 +52,3 @@ SK_FractionsEmptySpace[1] = 0.2315
 SK_ZEmptySpace[2] = 18
 SK_FractionsEmptySpace[2] = 0.0129
 SK_FractionTypeEmptySpace = MASS
-M_SK_EmptySpace.MName = Air
-M_SK_EmptySpace.Nmaterials = 1
-M_SK_EmptySpace.Name[0] = Air
-M_SK_EmptySpace.MatRelWeight[0] = 1
