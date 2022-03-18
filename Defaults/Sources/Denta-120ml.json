@@ -1,9 +1,10 @@
 {
     "Source": {
-        "Type": "CYLINDER",
+        "Type": "CONE",
         "Geometry": {
             "BeakerToDetectorFrontDistance": 0.0,
-            "BeakerDiameter": 6.91,
+            "BeakerDiameterBottom": 6.7,
+            "BeakerDiameterTop": 7.2,
             "BeakerHeight": 3.6,
             "BeakerSideWallThickness": 0.1,
             "BeakerEndWallThickness": 0.1,
