@@ -1,12 +1,12 @@
 //---------------------------------
 //DETECTOR PARAMETERS BLOCK:
 //---------------------------------
-//Detector types: COAXIAL, SCINTILLATOR
+//Detector types: COAXIAL, SCINTILLATOR, COAX_WELL
 
 
-DetectorType = COAXIAL
+DetectorType = COAX_WELL
 
-// Coaxial detector
+// Coaxial well detector
 DCW_CrystalDiameter = 5.75 cm
 DCW_CrystalHeight = 5.53 cm
 DCW_CrystalHoleDiameter = 2.97 cm
@@ -32,7 +32,7 @@ DCW_DetectorMountingThickness = 3 cm
 //---------------------------------
 //MATERIAL PARAMETERS BLOCK:
 //---------------------------------
-//Coaxial detector materials:
+//Coaxial well detector materials:
 //---------------------------
 
 
