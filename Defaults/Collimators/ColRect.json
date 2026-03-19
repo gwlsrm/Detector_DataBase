@@ -1,0 +1,24 @@
+{
+    "Collimator": {
+        "Type": "TYPE_RECT",
+        "Geometry": {
+            "CollimatorLength": 15.0,
+            "CollimatorSideThickness": 3.0,
+            "CollimatorFrontThickness": 2.0,
+            "CollimatorHoleWidth": 2.0,
+            "CollimatorHoleHeight": 1.0
+        },
+        "Material": {
+            "Wall": {
+                "rho": 11.34,
+                "fraction_type": "MASS",
+                "elements": [
+                    {
+                        "z": 82,
+                        "frac": 1
+                    }
+                ]
+            }
+        }
+    }
+}
