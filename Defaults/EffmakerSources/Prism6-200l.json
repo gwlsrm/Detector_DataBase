@@ -23,7 +23,7 @@
                     "y": 0.0,
                     "z": 0.0
                 },
-                "Direction": [0, 0, 1],
+                "DirectionAxis": "Z",
                 "Material": {
                     "Name": "Non-corrosive steel",
                     "rho": 7.93,
